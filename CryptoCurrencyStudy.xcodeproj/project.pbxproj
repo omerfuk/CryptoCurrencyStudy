@@ -17,6 +17,7 @@
 		DE51DE8E28C4B07D00678F4D /* AllCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE51DE8D28C4B07D00678F4D /* AllCoinsView.swift */; };
 		DE51DE9028C4B08900678F4D /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE51DE8F28C4B08900678F4D /* CoinRowView.swift */; };
 		DECA1A7028C61842004B1869 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA1A6F28C61842004B1869 /* HomeViewModel.swift */; };
+		DECA1A7228C61AEF004B1869 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA1A7128C61AEF004B1869 /* Coin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		DE51DE8D28C4B07D00678F4D /* AllCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinsView.swift; sourceTree = "<group>"; };
 		DE51DE8F28C4B08900678F4D /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		DECA1A6F28C61842004B1869 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DECA1A7128C61AEF004B1869 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		DE51DE8128C4AB4E00678F4D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DECA1A7128C61AEF004B1869 /* Coin.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DECA1A7228C61AEF004B1869 /* Coin.swift in Sources */,
 				DE51DE8A28C4AC6200678F4D /* TopMoversView.swift in Sources */,
 				DE51DE8E28C4B07D00678F4D /* AllCoinsView.swift in Sources */,
 				DE51DE8828C4ABC500678F4D /* HomeView.swift in Sources */,
